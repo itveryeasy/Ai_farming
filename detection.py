@@ -62,3 +62,17 @@ while True:
 # Release the webcam and close all windows
 cap.release()
 cv2.destroyAllWindows()
+
+# README
+# This script captures video from the webcam and performs real-time inference using a pre-trained TensorFlow model.
+# Features:
+# - Resizes webcam frames to match the model's input requirements.
+# - Normalizes the image data for consistent inference results.
+# - Displays real-time predictions including the predicted class and confidence score.
+# Requirements:
+# - OpenCV
+# - TensorFlow/Keras
+# Usage:
+# 1. Ensure the model file 'inception.h5' is in the same directory as this script.
+# 2. Run the script and allow access to the webcam.
+# 3. Quit by pressing the 'q' key.
